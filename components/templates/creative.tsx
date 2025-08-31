@@ -1,6 +1,6 @@
 // pages/components/templates/creative.tsx
 import React, { useEffect, useRef, useState } from "react";
-import { ResumeData } from "../../../types/resume";
+import { ResumeData } from "../../types/resume";
 
 type Props = {
   data: ResumeData & {

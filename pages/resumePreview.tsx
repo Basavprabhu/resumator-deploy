@@ -5,7 +5,7 @@ import { ResumeData } from "../types/resume";
 import { renderTemplate } from "../lib/templateRegistry";
 import { useState, useEffect } from "react";
 import { logInfo, logError } from "../lib/logger";
-import ResumeFormEditor from "../pages/components/ResumeFormEditor";
+import ResumeFormEditor from "../components/ResumeFormEditor";
 import { ResumeService } from "../lib/resumeService";
 import { showSuccess, showError } from "../lib/notifications";
 import { useAuth } from "../lib/authContext";

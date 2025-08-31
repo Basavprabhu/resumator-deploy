@@ -1,6 +1,6 @@
 // pages/components/templates/minimal.tsx
 import React, { useEffect, useRef, useState } from "react";
-import { ResumeData } from "../../../types/resume";
+import { ResumeData } from "../../types/resume";
 
 type ExpItem = {
   role?: string;

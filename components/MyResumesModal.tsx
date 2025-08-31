@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { SavedResume } from '../../types/resume';
-import { ResumeService } from '../../lib/resumeService';
-import { showSuccess, showError } from '../../lib/notifications';
-import { logInfo, logError } from '../../lib/logger';
+import { SavedResume } from '../types/resume';
+import { ResumeService } from '../lib/resumeService';
+import { showSuccess, showError } from '../lib/notifications';
+import { logInfo, logError } from '../lib/logger';
 
 interface MyResumesModalProps {
   isOpen: boolean;

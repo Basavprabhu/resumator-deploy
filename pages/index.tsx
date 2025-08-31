@@ -3,9 +3,9 @@
 
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import TopBar from "../pages/components/topbar";
-import HomeContent from "../pages/components/HomeContent";
-import MyResumesModal from "../pages/components/MyResumesModal";
+import TopBar from "../components/topbar";
+import HomeContent from "../components/HomeContent";
+import MyResumesModal from "../components/MyResumesModal";
 import { useAuth } from "../lib/authContext";
 import { ResumeService } from "../lib/resumeService";
 import { logInfo, logError } from "../lib/logger";

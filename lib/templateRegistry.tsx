@@ -26,7 +26,7 @@ export const TEMPLATE_REGISTRY: Record<string, TemplateInfo> = {
     name: "Professional",
     description: "Clean, traditional resume format perfect for corporate roles",
     category: "professional",
-    component: require("../pages/components/templates/minimal").default,
+    component: require("../components/templates/minimal").default,
     features: ["ATS-friendly", "Clean layout", "Professional typography", "Easy to read"],
     isDefault: true,
   },
@@ -35,7 +35,7 @@ export const TEMPLATE_REGISTRY: Record<string, TemplateInfo> = {
     name: "Modern",
     description: "Contemporary design with subtle styling for tech roles",
     category: "modern",
-    component: require("../pages/components/templates/modern").default,
+    component: require("../components/templates/modern").default,
     features: ["Modern design", "Tech-focused", "Good visual hierarchy", "Balanced layout"],
   },
   "template-creative": {
@@ -43,7 +43,7 @@ export const TEMPLATE_REGISTRY: Record<string, TemplateInfo> = {
     name: "Creative",
     description: "Stylish design for creative and design positions",
     category: "creative", 
-    component: require("../pages/components/templates/creative").default,
+    component: require("../components/templates/creative").default,
     features: ["Creative layout", "Visual appeal", "Design-focused", "Unique styling"],
   },
 };

@@ -5,8 +5,8 @@ import React, { useRef, useState } from "react";
 import ProfessionalTemplate from "./templates/minimal";
 import ModernTemplate from "./templates/modern";
 import CreativeTemplate from "./templates/creative";
-import { ResumeData } from "../../types/resume";
-import { exportResumeToPDFClient, printResume} from "../../lib/clientPdfExport";
+import { ResumeData } from "../types/resume";
+import { exportResumeToPDFClient, printResume} from "../lib/clientPdfExport";
 
 type Props = {
   resumeData: ResumeData;
