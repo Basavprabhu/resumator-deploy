@@ -2,8 +2,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { useAuth } from "./lib/authContext";
-import { logInfo, logError } from "./lib/logger";
+import { useAuth } from "../lib/authContext";
+import { logInfo, logError } from "../lib/logger";
 
 export default function RegisterPage() {
   const { register } = useAuth();

@@ -6,9 +6,9 @@ import { useRouter } from "next/router";
 import TopBar from "../pages/components/topbar";
 import HomeContent from "../pages/components/HomeContent";
 import MyResumesModal from "../pages/components/MyResumesModal";
-import { useAuth } from "./lib/authContext";
-import { ResumeService } from "./lib/resumeService";
-import { logInfo, logError } from "./lib/logger";
+import { useAuth } from "../lib/authContext";
+import { ResumeService } from "../lib/resumeService";
+import { logInfo, logError } from "../lib/logger";
 
 export default function HomePage() {
   const { user, loading: authLoading, logout } = useAuth();

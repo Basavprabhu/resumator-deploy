@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { notificationManager, Notification } from '../lib/notifications';
+import { notificationManager, Notification } from '../../lib/notifications';
 
 const NotificationContainer: React.FC = () => {
   const [notifications, setNotifications] = useState<Notification[]>([]);

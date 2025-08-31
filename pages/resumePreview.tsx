@@ -1,14 +1,14 @@
 "use client";
 
 import { useRouter } from "next/router";
-import { ResumeData } from "../pages/types/resume";
-import { renderTemplate } from "../pages/lib/templateRegistry";
+import { ResumeData } from "../types/resume";
+import { renderTemplate } from "../lib/templateRegistry";
 import { useState, useEffect } from "react";
-import { logInfo, logError } from "../pages/lib/logger";
+import { logInfo, logError } from "../lib/logger";
 import ResumeFormEditor from "../pages/components/ResumeFormEditor";
-import { ResumeService } from "../pages/lib/resumeService";
-import { showSuccess, showError } from "../pages/lib/notifications";
-import { useAuth } from "../pages/lib/authContext";
+import { ResumeService } from "../lib/resumeService";
+import { showSuccess, showError } from "../lib/notifications";
+import { useAuth } from "../lib/authContext";
 
 export default function ResumePreview() {
   const router = useRouter();

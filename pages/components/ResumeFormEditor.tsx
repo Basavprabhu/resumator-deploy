@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { ResumeData } from '../types/resume';
-import { logInfo, logError } from '../lib/logger';
+import { ResumeData } from '../../types/resume';
+import { logInfo, logError } from '../../lib/logger';
 
 interface ResumeFormEditorProps {
   initialData: ResumeData;

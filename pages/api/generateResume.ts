@@ -1,9 +1,9 @@
 // pages/api/generateResume.ts
 import type { NextApiRequest, NextApiResponse } from "next";
-import { logInfo, logError } from "../lib/logger";
-import { ResumeData } from "../types/resume";
+import { logInfo, logError } from "../../lib/logger";
+import { ResumeData } from "../../types/resume";
 import { jsonrepair } from "jsonrepair"; 
-import { isValidTemplateId, getTemplateIds } from "../lib/templateRegistry";
+import { isValidTemplateId, getTemplateIds } from "../../lib/templateRegistry";
 
 const GEMINI_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
