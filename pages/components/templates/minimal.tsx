@@ -40,6 +40,9 @@ type Props = {
   };
 };
 
+export const dynamic = "force-dynamic";
+
+
 export default function MinimalTemplate({ data }: Props) {
   const {
     name = "John Doe",

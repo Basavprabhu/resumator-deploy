@@ -24,6 +24,9 @@ type Props = {
   };
 };
 
+export const dynamic = "force-dynamic";
+
+
 export default function CreativeTemplate({ data }: Props) {
   const {
     name = "",

@@ -38,6 +38,9 @@ type Props = {
   };
 };
 
+export const dynamic = "force-dynamic";
+
+
 export default function ModernTemplate({ data }: Props) {
   const {
     name = "Your Name",
