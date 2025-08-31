@@ -1,6 +1,6 @@
 // pages/components/templates/modern.tsx
 import React, { useEffect, useRef, useState } from "react";
-import { ResumeData } from "../../types/resume";
+import { ResumeData } from "../../../types/resume";
 import { profile } from "console";
 
 type ExpItem = {

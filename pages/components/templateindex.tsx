@@ -1,7 +1,7 @@
 import React from "react";
 import TemplatePreview from "../components/templatepreview";
-import { dummyData } from "../lib/dummy";
-import { getAllTemplates, renderTemplate } from "../lib/templateRegistry";
+import { dummyData } from "../../lib/dummy";
+import { getAllTemplates, renderTemplate } from "../../lib/templateRegistry";
 
 type Props = {
   selectedTemplate: string | null;

@@ -5,12 +5,12 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import TemplatesIndex from "./templateindex";
-import { logInfo, logError } from "../lib/logger";
+import { logInfo, logError } from "../../lib/logger";
 
-import { ResumeData } from "../types/resume";
-import { preprocessResume } from "../lib/resumePreprocess";
-import ProfileDataExtractor, { SocialProfileData } from "../lib/profileDataExtractor";
-import { showSuccess, showError, showInfo } from "../lib/notifications";
+import { ResumeData } from "../../types/resume";
+import { preprocessResume } from "../../lib/resumePreprocess";
+import ProfileDataExtractor, { SocialProfileData } from "../../lib/profileDataExtractor";
+import { showSuccess, showError, showInfo } from "../../lib/notifications";
 
 
 /** Minimal spinner */
